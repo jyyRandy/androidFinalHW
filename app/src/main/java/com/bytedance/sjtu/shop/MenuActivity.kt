@@ -12,7 +12,9 @@ class MenuActivity : AppCompatActivity() {
     lateinit var binding: ActivityMenuBinding
 
     private var introduction:String = "欢迎您进入神秘商城\n" +
-            "选择一个商品折扣吧\nGood Luck!!"
+            "三个随机商品折扣\n"+
+            "1~3折、4~6折、7~9折\n"+
+            "开盲盒选择一个吧，Good Luck!!"
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
